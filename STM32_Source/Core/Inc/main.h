@@ -58,8 +58,11 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define RED_LED_Pin GPIO_PIN_5
+#define RED_LED_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
-
+extern UART_HandleTypeDef huart2;
+extern ADC_HandleTypeDef hadc1;
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

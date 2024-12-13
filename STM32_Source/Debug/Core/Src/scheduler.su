@@ -1,0 +1,6 @@
+scheduler.c:13:6:SCH_Init	16	static
+scheduler.c:23:6:SCH_Update	4	static
+scheduler.c:38:6:SCH_Dispatch	8	static
+scheduler.c:49:9:SCH_AddTask	48	static
+scheduler.c:86:15:SCH_DeleteTask	32	static
+scheduler.c:108:15:SCH_RefreshTask	48	static
